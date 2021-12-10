@@ -1,0 +1,165 @@
+/* Global ============== */
+:root {
+  --body-bg-color: rgb(34, 33, 44);
+  --text-color: hsl(249, 15%, 56%);
+  --bg-cards: hsl(244, 13%, 21%);
+  --bg-techs: hsl(327, 35%, 68%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: var(--body-bg-color);
+  -webkit-font-smoothing: antialiased;
+
+  display: grid;
+  grid-template-columns: 21.75rem 1fr;
+  gap: 3.75rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+aside .profile {
+  width: 21.75rem;
+  height: 18.25rem;
+  margin: 40px 0 30px 40px;
+  background-color: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+aside .avatar {
+  width: 8rem;
+  margin: 0 auto;
+}
+
+aside .avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid hsl(120, 100%, 50%);
+  margin: 32px auto 0;
+}
+
+aside .profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.87rem;
+}
+
+aside .profile-details p {
+  font-weight: 700;
+  font-size: 1.43rem;
+  line-height: 29px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+aside .profile-details span {
+  font-weight: 300;
+  font-size: 0.81rem;
+  line-height: 16px;
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 0.62rem;
+}
+
+aside .links {
+  width: 21.75rem;
+  height: 21.75rem;
+  margin: 30px 0 0 40px;
+  background-color: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+aside .links ul {
+  position: absolute;
+  margin: 30px 0 0 40px;
+}
+
+aside .links a {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+aside .links img {
+  width: 1.25rem;
+  width: 1.25rem;
+}
+
+aside .links span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: var(--text-color);
+}
+
+aside .technologies {
+  width: 21rem;
+  height: 13rem;
+  margin: 30px 0 0 40px;
+  background-color: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+aside .technologies h2 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 25px;
+  color: var(--text-color);
+  margin: 30px 0 0 20px;
+}
+
+aside .technologies #data-table {
+  width: 100%;
+  position: relative;
+  top: 4.75rem;
+}
+
+aside .technologies #data-table tbody {
+  position: absolute;
+  margin: 0 30px 30px;
+}
+
+aside .technologies #data-table tr {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+aside .technologies #data-table td {
+  width: 5.37rem;
+  height: 1.5rem;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 0.62rem;
+  line-height: 13px;
+
+  color: hsl(0, 0%, 0%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
