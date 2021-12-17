@@ -590,7 +590,7 @@ main .posts .container-post .container-footer-post {
   aside {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.33rem;
-    left: 20px;
+    left: 0;
   }
 
   aside .profile {
