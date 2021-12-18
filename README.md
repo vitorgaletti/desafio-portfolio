@@ -3,11 +3,9 @@
 <img alt="Desafio RocketNews" src="https://app.rocketseat.com.br/_next/image?url=%2Fassets%2Fimages%2Fdiscover%2Fchallenges%2Fportfolio.png&w=1920&q=75" width="500" />
 
 <br>
-<br>
 
 <p align="center"><em>Confira o resultado do desafio em: <a href="https://vitorgaletti.github.io/desafio-portfolio/" target="_blank">vitorgaletti.github.io/desafio-portfolio/</a></em></p>
 
-<br>
 <br>
 
 ## :computer: Sobre o desafio
@@ -16,7 +14,6 @@
 
 Neste desafio você poderá criar uma página web para que seja seu portfolio e currículo. Utilizando HTML e CSS.
 
-<br>
 <br>
 
 ## :rocket: Techs
@@ -27,7 +24,6 @@ Neste desafio você poderá criar uma página web para que seja seu portfolio e 
   <li> Javascript </li>
 </ul>
 
-<br>
 <br>
 
 ## Layout
