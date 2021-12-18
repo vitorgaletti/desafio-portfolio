@@ -6,15 +6,11 @@
 
 <p align="center"><em>Confira o resultado do desafio em: <a href="https://vitorgaletti.github.io/desafio-portfolio/" target="_blank">vitorgaletti.github.io/desafio-portfolio/</a></em></p>
 
-<br>
-
 ## :computer: Sobre o desafio
 
 <hr>
 
 Neste desafio você poderá criar uma página web para que seja seu portfolio e currículo. Utilizando HTML e CSS.
-
-<br>
 
 ## :rocket: Techs
 
@@ -23,8 +19,6 @@ Neste desafio você poderá criar uma página web para que seja seu portfolio e 
   <li> CSS </li>
   <li> Javascript </li>
 </ul>
-
-<br>
 
 ## Layout
 
