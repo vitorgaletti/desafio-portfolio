@@ -157,7 +157,7 @@ function renderProjects(rep) {
           <h3>${repository}</h3>
       </div>
       <div class="project-description">
-          <p>${description}.</p>
+          <p>${description}</p>
       </div>
 
       <div class="project-footer">
