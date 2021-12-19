@@ -1,17 +1,12 @@
 const start = function () {
   const url = 'https://api.github.com/users/vitorgaletti';
-  const client_id = '89576ba2747324755091';
-  const client_secret = '038638c8d450df8c6f417ee215d97b354aee7012';
 
-  getGiHubProfileInfos(url, client_id, client_secret);
-  getPinnedRepositories();
+  getGiHubProfileInfos(url);
 };
 
-async function getGiHubProfileInfos(url, client_id, client_secret) {
+async function getGiHubProfileInfos(url) {
   try {
-    const profileResponse = await fetch(
-      `${url}?client_id=${client_id}&client_secret=${client_secret}`
-    );
+    const profileResponse = await fetch(`${url}`);
 
     if (!profileResponse.ok) {
       throw new Error('Falha de conexão');
@@ -20,18 +15,19 @@ async function getGiHubProfileInfos(url, client_id, client_secret) {
     const data = await profileResponse.json();
     renderProfile(data);
     renderLinks(data);
+    getPinnedRepositories(data.login);
   } catch (error) {
     alert(error);
   }
 }
 
-async function getPinnedRepositories() {
+async function getPinnedRepositories(login) {
   try {
     const response = await fetch(
-      `https://gh-pinned-repos.egoist.sh/?username=vitorgaletti`
+      `https://gh-pinned-repos.egoist.sh/?username=${login}`
     );
 
-    if (!response.status) {
+    if (!response.ok) {
       throw new Error('Falha de conexão');
     }
 
