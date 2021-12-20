@@ -4,7 +4,7 @@
 
 <br>
 
-<p align="center"><em>Confira o resultado do desafio em: <a href="https://vitorgaletti.github.io/desafio-portfolio/" target="_blank">vitorgaletti.github.io/desafio-portfolio/</a></em></p>
+<p align="center"><em>Confira o resultado do desafio em: <a href="https://vitorgaletti.github.io/desafio-portfolio" target="_blank">vitorgaletti.github.io/desafio-portfolio</a></em></p>
 
 ## :computer: Sobre o desafio
 
